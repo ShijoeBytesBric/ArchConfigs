@@ -1,0 +1,4 @@
+theme = "default"
+
+[keybinds]
+quick_activate = []

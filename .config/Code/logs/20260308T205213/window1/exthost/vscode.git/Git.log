@@ -1,0 +1,50 @@
+2026-03-08 20:52:14.700 [info] [main] Log level: Info
+2026-03-08 20:52:14.700 [info] [main] Validating found git in: "git"
+2026-03-08 20:52:14.700 [info] [main] Using git "2.53.0" from "git"
+2026-03-08 20:52:14.700 [info] [Model][doInitialScan] Initial repository scan started
+2026-03-08 20:52:14.700 [info] > git rev-parse --show-toplevel [1ms]
+2026-03-08 20:52:14.700 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [2ms]
+2026-03-08 20:52:14.700 [info] [Model][openRepository] Opened repository (path): /home/shijoe/Documents/github-repos/omarchy
+2026-03-08 20:52:14.700 [info] [Model][openRepository] Opened repository (real path): /home/shijoe/Documents/github-repos/omarchy
+2026-03-08 20:52:14.700 [info] [Model][openRepository] Opened repository (kind): repository
+2026-03-08 20:52:14.700 [info] > git rev-parse --show-toplevel [1ms]
+2026-03-08 20:52:14.700 [info] > git config --get commit.template [3ms]
+2026-03-08 20:52:14.700 [info] > git rev-parse --show-toplevel [14ms]
+2026-03-08 20:52:14.708 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [9ms]
+2026-03-08 20:52:14.725 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/shijoe/Documents/github-repos/omarchy/.git/refs/remotes/origin/dev'
+2026-03-08 20:52:14.725 [info] > git rev-parse --show-toplevel [18ms]
+2026-03-08 20:52:14.736 [info] > git rev-parse refs/remotes/origin/dev [10ms]
+2026-03-08 20:52:14.744 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-03-08 20:52:14.745 [info] > git rev-parse --show-toplevel [10ms]
+2026-03-08 20:52:14.749 [info] > git rev-parse --show-toplevel [1ms]
+2026-03-08 20:52:14.752 [info] > git rev-parse --show-toplevel [1ms]
+2026-03-08 20:52:14.755 [info] > git rev-parse --show-toplevel [0ms]
+2026-03-08 20:52:14.757 [info] > git rev-parse --show-toplevel [0ms]
+2026-03-08 20:52:14.759 [info] > git rev-parse --show-toplevel [0ms]
+2026-03-08 20:52:14.761 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-03-08 20:52:14.849 [info] > git status -z -uall [111ms]
+2026-03-08 20:52:14.863 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [3ms]
+2026-03-08 20:52:14.868 [info] > git config --get --local branch.dev.vscode-merge-base [3ms]
+2026-03-08 20:52:14.871 [info] > git config --get commit.template [9ms]
+2026-03-08 20:52:14.873 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/dev refs/remotes/origin/dev [2ms]
+2026-03-08 20:52:14.879 [info] > git merge-base refs/heads/dev refs/remotes/origin/dev [3ms]
+2026-03-08 20:52:14.882 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [3ms]
+2026-03-08 20:52:14.884 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/shijoe/Documents/github-repos/omarchy/.git/refs/remotes/origin/dev'
+2026-03-08 20:52:14.884 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 462575c880e127f00d3a5bbb79100f429efcf641...refs/remotes/origin/dev -- [2ms]
+2026-03-08 20:52:14.885 [info] > git rev-parse refs/remotes/origin/dev [1ms]
+2026-03-08 20:52:14.891 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-03-08 20:52:14.983 [info] > git status -z -uall [97ms]
+2026-03-08 20:52:14.985 [info] > git check-ignore -v -z --stdin [3ms]
+2026-03-08 20:52:14.992 [info] > git show --textconv :bin/omarchy-cmd-screenrecord [3ms]
+2026-03-08 20:52:14.992 [info] > git ls-files --stage -- bin/omarchy-cmd-screenrecord [1ms]
+2026-03-08 20:52:14.994 [info] > git cat-file -s 3ee3d8777299f36893e396d92d464b1af4ae95de [0ms]
+2026-03-08 20:52:15.031 [info] > git blame --root --incremental 462575c880e127f00d3a5bbb79100f429efcf641 -- bin/omarchy-cmd-screenrecord [19ms]
+2026-03-08 20:52:15.221 [info] > git check-ignore -v -z --stdin [3ms]
+2026-03-08 20:54:45.441 [info] > git check-ignore -v -z --stdin [2ms]
+2026-03-08 20:54:48.203 [info] > git check-ignore -v -z --stdin [2ms]
+2026-03-08 20:54:48.827 [info] > git check-ignore -v -z --stdin [2ms]
+2026-03-08 20:54:52.045 [info] > git check-ignore -v -z --stdin [2ms]
+2026-03-08 20:54:52.060 [info] > git show --textconv :install.sh [6ms]
+2026-03-08 20:54:52.061 [info] > git ls-files --stage -- install.sh [2ms]
+2026-03-08 20:54:52.064 [info] > git cat-file -s 5b1b6bdda534ba6834c087dedab08777794181fb [0ms]
+2026-03-08 20:54:52.087 [info] > git blame --root --incremental 462575c880e127f00d3a5bbb79100f429efcf641 -- install.sh [16ms]

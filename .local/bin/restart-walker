@@ -1,0 +1,16 @@
+#!/bin/bash
+
+restart_services() {
+  if systemctl --user is-active elephant.service &>/dev/null; then
+    systemctl --user restart elephant.service
+  fi
+
+  WALKER_SCOPE=$(systemctl --user list-units --no-legend | awk '/app-Hyprland-walker.*\.scope/ {print $1}')
+
+  if [[ -n "$WALKER_SCOPE" ]]; then
+    systemctl --user stop "$WALKER_SCOPE"
+    uwsm app -- walker --gapplication-service &
+  else
+    echo -e "\e[31mUnable to restart Walker -- RESTART MANUALLY\e[0m"
+  fi
+}

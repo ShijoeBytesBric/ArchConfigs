@@ -1,0 +1,80 @@
+#!/bin/bash
+# launch-tui — Launch a TUI in a terminal window, or focus it if already open.
+#
+# Usage:
+#   launch-tui <app>              # run a named app from config
+#   launch-tui <command> [args]   # run any command directly
+#
+# Config: ~/.config/launch-tui/apps.conf
+# See: apps.conf.example for format
+
+CONFIG_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/launch-tui"
+CONFIG_FILE="$CONFIG_DIR/apps.conf"
+NAMESPACE="org.omarchy"
+
+# ── helpers ──────────────────────────────────────────────────────────────────
+
+die()  { echo "launch-tui: $*" >&2; exit 1; }
+usage(){ echo "Usage: launch-tui <app|command> [args...]"; exit 0; }
+
+# Load a key from the config for a given app.
+# Format:  app.key = value
+conf_get() {
+  local app="$1" key="$2"
+  [[ -f "$CONFIG_FILE" ]] || return
+  awk -F'=' -v app="$app" -v key="$key" '
+    /^[[:space:]]*#/ { next }
+    {
+      gsub(/^[[:space:]]+|[[:space:]]+$/, "", $1)
+      gsub(/^[[:space:]]+/, "", $2)
+      if ($1 == app "." key) { print $2; exit }
+    }
+  ' "$CONFIG_FILE"
+}
+
+# Load ALL values for a key (for multi-value keys like pre_hook).
+conf_get_all() {
+  local app="$1" key="$2"
+  [[ -f "$CONFIG_FILE" ]] || return
+  awk -F'=' -v app="$app" -v key="$key" '
+    /^[[:space:]]*#/ { next }
+    {
+      gsub(/^[[:space:]]+|[[:space:]]+$/, "", $1)
+      gsub(/^[[:space:]]+/, "", $2)
+      if ($1 == app "." key) { print $2 }
+    }
+  ' "$CONFIG_FILE"
+}
+
+# ── main ─────────────────────────────────────────────────────────────────────
+
+[[ $# -eq 0 ]] && usage
+
+APP="$1"; shift          # first arg is app name or bare command
+ARGS=("$@")              # remaining args passed through to the command
+
+# Resolve command: config lookup, then fall back to APP itself
+CMD="$(conf_get "$APP" command)"
+CMD="${CMD:-$APP}"
+
+# Optional namespace override per app
+NS="$(conf_get "$APP" namespace)"
+NS="${NS:-$NAMESPACE}"
+
+APP_ID="${NS}.$(basename "$CMD")"
+
+# Run all pre-hooks in order (supports multiple pre_hook entries per app)
+while IFS= read -r hook; do
+  [[ -n "$hook" ]] && eval "$hook"
+done < <(conf_get_all "$APP" pre_hook)
+
+# Focus existing window or launch a new one
+WINDOW_ADDRESS=$(hyprctl clients -j | jq -r --arg p "$APP_ID" \
+  '.[]|select((.class|test("\\b"+$p+"\\b";"i")) or (.title|test("\\b"+$p+"\\b";"i")))|.address' \
+  | head -n1)
+
+if [[ -n "$WINDOW_ADDRESS" ]]; then
+  hyprctl dispatch focuswindow "address:$WINDOW_ADDRESS"
+else
+  exec setsid uwsm-app -- xdg-terminal-exec --app-id="$APP_ID" -e "$CMD" "${ARGS[@]}"
+fi

@@ -1,0 +1,7 @@
+# This is the configuration file for Ghostty.
+
+theme = TokyoNight Night
+font-family = "JetBrainsMono NFP Regular"
+font-size = 12
+# background-opacity = 0.7
+# background-blur-radius = 20

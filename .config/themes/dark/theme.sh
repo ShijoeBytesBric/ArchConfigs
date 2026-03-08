@@ -11,3 +11,9 @@ swww img "$STATE_DIR/active-wallpaper" \
     --transition-type wipe \
     --transition-angle 30 \
     --transition-duration 1.5
+
+# Generate color palette from wallpaper
+wal -i "$STATE_DIR/active-wallpaper" -n --cols16
+
+# Reload Waybar to pick up new colors
+pkill waybar && waybar &

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/shijoe/Downloads/zen.linux-x86_64.tar.xz" added="2026-02-22T20:04:30.465769Z" modified="2026-02-22T20:04:30.465782Z" visited="2026-02-22T20:04:30.465770Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xz-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-02-22T20:04:30.465774Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shijoe/Downloads/wp11058350-gruvbox-wallpapers.png" added="2026-02-23T18:43:06.180700Z" modified="2026-02-23T18:43:06.180703Z" visited="2026-02-23T18:43:06.180701Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-02-23T18:43:06.180702Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shijoe/Downloads/wp8561054-light-theme-wallpapers.jpg" added="2026-02-23T18:44:15.977036Z" modified="2026-02-23T18:44:15.977044Z" visited="2026-02-23T18:44:15.977037Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-02-23T18:44:15.977039Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shijoe/Downloads/wp11058333-gruvbox-wallpapers.png" added="2026-02-23T19:08:03.580713Z" modified="2026-02-23T19:08:03.580717Z" visited="2026-02-23T19:08:03.580714Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-02-23T19:08:03.580715Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shijoe/Downloads/wallpaper.png" added="2026-02-23T19:08:42.008073Z" modified="2026-02-23T19:08:42.008081Z" visited="2026-02-23T19:08:42.008074Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-02-23T19:08:42.008077Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shijoe/Downloads/wallpaper.jpg" added="2026-02-23T19:08:48.117334Z" modified="2026-02-23T19:08:48.117337Z" visited="2026-02-23T19:08:48.117335Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-02-23T19:08:48.117335Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shijoe/.config/nwg-look/config" added="2026-02-28T17:26:42.418957Z" modified="2026-02-28T17:26:42.418961Z" visited="2026-02-28T17:26:42.418958Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;nvim %F&apos;" modified="2026-02-28T17:26:42.418959Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shijoe/Downloads/Tokyonight-GTK-Theme-master.zip" added="2026-02-28T17:40:39.350879Z" modified="2026-02-28T17:40:39.350888Z" visited="2026-02-28T17:40:39.350881Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-02-28T17:40:39.350883Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shijoe/Downloads/Tokyonight-BL-LB-dark-Storm.tar.xz" added="2026-02-28T18:28:18.549758Z" modified="2026-02-28T18:28:18.549768Z" visited="2026-02-28T18:28:18.549759Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xz-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-02-28T18:28:18.549762Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shijoe/Downloads/Tokyonight-B-LB-dark.tar.xz" added="2026-02-28T18:30:15.260179Z" modified="2026-02-28T18:30:15.260193Z" visited="2026-02-28T18:30:15.260180Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xz-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-02-28T18:30:15.260185Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shijoe/.themes" added="2026-02-28T18:37:30.863968Z" modified="2026-02-28T18:37:30.863974Z" visited="2026-02-28T18:37:30.863969Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2026-02-28T18:37:30.863970Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shijoe/.themes/Tokyonight-BL-LB-Dark-Storm/extra" added="2026-02-28T18:39:32.699335Z" modified="2026-02-28T18:39:32.699341Z" visited="2026-02-28T18:39:32.699336Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2026-02-28T18:39:32.699338Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shijoe/.themes/Tokyonight-B-LB-Dark/extra" added="2026-02-28T18:40:58.215148Z" modified="2026-02-28T18:40:58.215155Z" visited="2026-02-28T18:40:58.215150Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2026-02-28T18:40:58.215152Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shijoe/.local/bin" added="2026-02-28T18:57:40.139525Z" modified="2026-02-28T18:57:40.139532Z" visited="2026-02-28T18:57:40.139526Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2026-02-28T18:57:40.139528Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shijoe/.config/gtk-4.0/gtk.css" added="2026-02-28T19:01:39.213732Z" modified="2026-02-28T19:01:39.213737Z" visited="2026-02-28T19:01:39.213733Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;nvim %F&apos;" modified="2026-02-28T19:01:39.213735Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shijoe/.themes/Tokyonight-B-LB-Dark/index.theme" added="2026-02-28T19:06:20.300312Z" modified="2026-02-28T19:11:55.102349Z" visited="2026-02-28T19:06:20.300313Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-theme"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;nvim %F&apos;" modified="2026-02-28T19:11:55.102344Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shijoe/Downloads/mw-BpuF14DFbYs-unsplash.jpg" added="2026-02-28T19:16:42.759192Z" modified="2026-02-28T19:16:42.759203Z" visited="2026-02-28T19:16:42.759193Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-02-28T19:16:42.759197Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shijoe/Downloads/leo-okuyama-H4uGE2skayY-unsplash.jpg" added="2026-02-28T19:17:00.880913Z" modified="2026-02-28T19:17:00.880917Z" visited="2026-02-28T19:17:00.880914Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-02-28T19:17:00.880915Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shijoe/.config/themes/switch-theme.sh" added="2026-02-28T19:18:58.974515Z" modified="2026-02-28T19:18:58.974521Z" visited="2026-02-28T19:18:58.974516Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;nvim %F&apos;" modified="2026-02-28T19:18:58.974517Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shijoe/.themes/Tokyonight/index.theme" added="2026-02-28T19:28:30.015063Z" modified="2026-02-28T19:28:30.015068Z" visited="2026-02-28T19:28:30.015064Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-theme"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;nvim %F&apos;" modified="2026-02-28T19:28:30.015065Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shijoe/.local/share/icons" added="2026-02-28T19:32:35.631250Z" modified="2026-02-28T19:32:35.631256Z" visited="2026-02-28T19:32:35.631251Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2026-02-28T19:32:35.631253Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shijoe/.local/share/icons/Tokyonight-Dark/index.theme" added="2026-02-28T19:37:14.033334Z" modified="2026-02-28T19:37:14.033337Z" visited="2026-02-28T19:37:14.033334Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-theme"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;nvim %F&apos;" modified="2026-02-28T19:37:14.033335Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shijoe/Documents/obsidian_vault" added="2026-03-01T17:29:40.160456Z" modified="2026-03-01T17:29:40.160461Z" visited="2026-03-01T17:29:40.160456Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2026-03-01T17:29:40.160458Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/lib/flatpak/exports/share/applications/com.valvesoftware.Steam.desktop" added="2026-03-01T19:29:25.036711Z" modified="2026-03-01T19:29:25.036715Z" visited="2026-03-01T19:29:25.036712Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-desktop"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;nvim %F&apos;" modified="2026-03-01T19:29:25.036713Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/lib/flatpak/exports/share/icons/hicolor/index.theme" added="2026-03-01T19:30:18.640108Z" modified="2026-03-01T19:30:18.640113Z" visited="2026-03-01T19:30:18.640109Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-theme"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;nvim %F&apos;" modified="2026-03-01T19:30:18.640111Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shijoe/Downloads/AntonShijoe.pdf" added="2026-03-04T17:08:37.509542Z" modified="2026-03-04T17:39:03.984126Z" visited="2026-03-04T17:08:37.509543Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2026-03-04T17:39:03.984124Z" count="5"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;/usr/lib/firefox/firefox %u&apos;" modified="2026-03-04T17:09:24.403513Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shijoe/Downloads/launch-tui" added="2026-03-04T19:30:18.711919Z" modified="2026-03-04T19:30:18.711925Z" visited="2026-03-04T19:30:18.711920Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;nvim %F&apos;" modified="2026-03-04T19:30:18.711922Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

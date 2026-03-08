@@ -10,3 +10,9 @@ ln -sf "$THEMES_DIR/light/wallpaper.jpg" "$STATE_DIR/active-wallpaper"
 swww img "$STATE_DIR/active-wallpaper" \
     --transition-type fade \
     --transition-duration 1.0
+
+# Generate color palette from wallpaper
+wal -i "$STATE_DIR/active-wallpaper" -n --cols16
+
+# Reload Waybar to pick up new colors
+pkill waybar && waybar &

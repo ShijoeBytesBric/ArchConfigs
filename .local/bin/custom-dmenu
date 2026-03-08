@@ -1,0 +1,23 @@
+#!/bin/bash
+
+menu() {
+    local prompt="$1"
+    local options="$2"
+    printf "%b" "$options" | launch-walker --dmenu \
+    --width 295 \
+    --minheight 1 \
+    --maxheight 630 \ 
+    -p "" \
+    2>/dev/null
+}
+
+choice=$(menu "power" "󰒲  Suspend\n󰤁  Hibernate\n󰍃  Logout\n󰜉  Restart\n󰐥  Shutdown\n󰌾  Lock")
+
+case "$choice" in
+    *Suspend)   systemctl suspend ;;
+    *Hibernate) systemctl hibernate ;;
+    *Logout)    system-logout ;;
+    *Restart)   systemctl reboot ;;
+    *Shutdown)  systemctl poweroff ;;
+    *Lock)      loginctl lock-session ;;
+esac
